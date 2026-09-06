@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: theme("colors.cloth");
+  color: theme("colors.ink");
+}
+
+::selection {
+  background-color: theme("colors.marigold.DEFAULT");
+  color: theme("colors.ink");
+}
+
+/* Visible keyboard focus everywhere, in place of the browser default */
+:focus-visible {
+  outline: 2px solid theme("colors.vermillion.DEFAULT");
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
