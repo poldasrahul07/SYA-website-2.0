@@ -240,10 +240,7 @@ export default function Home() {
 </p>
           </div>
 
-         <div className="mt-12 mx-auto max-w-3xl">
-  <div className="rounded-3xl border border-emerald-100 bg-gradient-to-br from-emerald-50 to-white p-8 text-center shadow-sm sm:p-10">
-    <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-full bg-emerald-100 text-2xl">
-      🤝
+         
     </div>
 <div className="mx-auto mt-12 max-w-3xl">
   <div className="rounded-[2rem] border border-emerald-100 bg-white px-8 py-12 text-center shadow-sm sm:px-12">
@@ -261,15 +258,7 @@ export default function Home() {
       meaningful change.
     </p>
 
-    <a
-      href="#donations"
-      className="mt-8 inline-flex items-center rounded-full bg-emerald-700 px-7 py-3.5 font-semibold text-white transition hover:bg-emerald-800"
-    >
-      Support Our Mission
-      <span className="ml-2">→</span>
-    </a>
-  </div>
-</div>
+    
     <a
       href="#contact"
       className="mt-6 inline-flex items-center rounded-full bg-emerald-700 px-6 py-3 font-semibold text-white transition hover:bg-emerald-800"
