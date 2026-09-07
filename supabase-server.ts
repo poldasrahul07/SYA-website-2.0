@@ -5,7 +5,7 @@ import { cookies } from "next/headers";
 // Server Actions. Reads/writes the auth session via cookies so admin
 // pages can check the signed-in user's role via row-level security.
 export function createServerSupabaseClient() {
-  const cookieStore = cookies();
+  const cookieStore = await cookies();
 
   return createServerClient(
     process.env.NEXT_PUBLIC_SUPABASE_URL!,
