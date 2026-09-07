@@ -21,12 +21,7 @@ const activities = [
   },
 ];
 
-const sponsors = [
-  "Main Sponsors",
-  "Gold Sponsors",
-  "Silver Sponsors",
-  "Community Supporters",
-];
+
 
 export default function Home() {
   return (
@@ -239,10 +234,10 @@ export default function Home() {
               Together, we make an impact.
             </h2>
 
-            <p className="mx-auto mt-5 max-w-2xl text-slate-600">
-              We are grateful to everyone who supports our vision and helps us
-              serve the community.
-            </p>
+          <p className="mx-auto mt-5 max-w-2xl text-slate-600">
+  Sunshine Youth Association is building a community of people who believe
+  in creating a brighter future.
+</p>
           </div>
 
          <div className="mt-12 mx-auto max-w-3xl">
@@ -250,16 +245,31 @@ export default function Home() {
     <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-full bg-emerald-100 text-2xl">
       🤝
     </div>
+<div className="mx-auto mt-12 max-w-3xl">
+  <div className="rounded-[2rem] border border-emerald-100 bg-white px-8 py-12 text-center shadow-sm sm:px-12">
+    <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-emerald-50 text-3xl">
+      🤝
+    </div>
 
-    <h3 className="mt-5 text-2xl font-bold text-slate-800">
-      Become a Sponsor
+    <h3 className="mt-6 text-2xl font-bold tracking-tight text-slate-800 sm:text-3xl">
+      Become our first supporter
     </h3>
 
-    <p className="mx-auto mt-3 max-w-xl text-slate-600 leading-7">
-      We are looking forward to partnering with individuals and organizations
-      who believe in creating a brighter future for our community.
+    <p className="mx-auto mt-4 max-w-2xl text-base leading-7 text-slate-600">
+      We are currently welcoming individuals, businesses and organizations
+      who would like to support our community initiatives and help us create
+      meaningful change.
     </p>
 
+    <a
+      href="#donations"
+      className="mt-8 inline-flex items-center rounded-full bg-emerald-700 px-7 py-3.5 font-semibold text-white transition hover:bg-emerald-800"
+    >
+      Support Our Mission
+      <span className="ml-2">→</span>
+    </a>
+  </div>
+</div>
     <a
       href="#contact"
       className="mt-6 inline-flex items-center rounded-full bg-emerald-700 px-6 py-3 font-semibold text-white transition hover:bg-emerald-800"
