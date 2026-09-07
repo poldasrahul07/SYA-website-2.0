@@ -4,7 +4,7 @@ import { cookies } from "next/headers";
 // Server-side Supabase client for Server Components, Route Handlers, and
 // Server Actions. Reads/writes the auth session via cookies so admin
 // pages can check the signed-in user's role via row-level security.
-export function createServerSupabaseClient() {
+export async function createServerSupabaseClient() {
   const cookieStore = await cookies();
 
   return createServerClient(
